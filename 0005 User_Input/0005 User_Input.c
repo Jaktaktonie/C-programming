@@ -15,6 +15,7 @@ int main(int argc, char *argv[]) {
     scanf (" %c", &myChar);
 
     printf("Twój numer to: %d\n", myNum);
+    printf("Twój numer to: %p\n", &myNum); // Outputs the memory address of myAge - pokazuje adres pamięci
     printf("Twoja litera to: %c\n", myChar);
 
 

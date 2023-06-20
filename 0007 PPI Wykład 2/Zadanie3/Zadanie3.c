@@ -16,7 +16,7 @@ int iloczyn(int a, int b) // definicja funkcji 'iloczyn'
 int main(int argc, char *argv[])
 {
     int a, b;
-    system("chcp 1250 > nul");
+    system("chcp 65001 > nul");
 
     puts("Operacje arytmetyczne na liczbach całkowitych z wykorzystaniem funkcji");
     fflush(stdin); // uwaga

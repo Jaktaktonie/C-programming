@@ -41,10 +41,10 @@ int main(int argc, char* argv[])
         sum2 = x / y;
         printf("%.2lf / %.2lf = %.2f\n", x, y, sum2);
     }
-    if (y=5.0)
+    if (y==5.0)
     {
         sum2 = x * x * y;
-           printf("%.2lf * %.2lf * %2.lf = %.2lf\n", x,x,y,sum2);
+           printf("%.2lf * %.2lf * %.2lf = %.2lf\n", x,x,y,sum2);
     }
     system("pause");
     return 0;

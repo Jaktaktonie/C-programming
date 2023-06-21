@@ -1,4 +1,5 @@
 #include "myfun1.h"
+#define _USE_MATH_DEFINES
 
 /* definicja funkcji odległość */
 
